@@ -80,8 +80,8 @@ const AirportPickupPage = () => {
              src="/NetflixDesktop.png"
              alt="NetflixDesktop Logo"
              className="mx-auto mb-[1rem]"
-             width={60}
-             height={120}
+             width={100}
+             height={200}
            />
             <Image
               className="text-black rounded-lg py-1 px-2" 
