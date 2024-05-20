@@ -24,12 +24,9 @@ const AirportPickupPage = () => {
             <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>Terminal 1, 1st floor | Gate 5</div>
             <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Gimpo Airport</div>
             <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>International terminal, 1st floor | Gate 1</div>
-            <div className="flex justify-center w-[30%] mx-auto gray-500">
-              <div className='flex'></div>
-              <div className="flex justify-center w-full mx-auto gray-500">
-                <hr className='w-[70%]'></hr>
+            <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">
+                <hr className='w-[30%]'></hr>
               </div>
-            </div>
             <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '25px' }}>WHO WILL BE WAITING?</p>
             <div className="netflix-light text-white" style={{ fontSize: '12px' }}>Please find a staff member wearing</div>
             <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>a gray suit and holding a Netflix sign below.</div>
@@ -43,12 +40,9 @@ const AirportPickupPage = () => {
             <p className="netflix-bold text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '16px' }}>NETFLIX VAN DEPARTURE TIME</p>
             <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>Please check your assigned shuttle pickup<br/>time according to when you arrive.</div>
             <div className="netflix-light text-white" style={{ fontSize: '12px' }}>If you have any delays, please contact<br/>us at the emergency number below.</div>
-            <div className="flex justify-center w-[30%] mx-auto gray-500 my-[3rem]">
-              <div className='flex'></div>
-              <div className="flex justify-center w-full mx-auto gray-500">
-                <hr className='w-[70%]'></hr>
+            <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">
+                <hr className='w-[30%]'></hr>
               </div>
-            </div>
             <p className="text-white mb-[1.5rem] font-black text-center" style={{ fontSize: '25px' }}>EMERGENCY CONTACT</p>
             <div className='flex w-full mx-auto justify-center align-items'>
               <div className="netflix-light font-extrabold text-white my-auto" style={{ fontSize: '16px' }}>Dongmin Kim</div>
@@ -66,7 +60,7 @@ const AirportPickupPage = () => {
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
         <div className="flex justify-center w-[30%] mx-auto gray-500">
           {currentPage > 1 &&  (<Image
-              className="text-black rounded-lg py-1 px-2" 
+              className="text-black rounded-lg py-1 px-2 mx-auto" 
               src="/previousbutton.png"
           alt="previousbutton Logo"
               onClick={previousPage}
@@ -84,7 +78,7 @@ const AirportPickupPage = () => {
              height={200}
            />
             <Image
-              className="text-black rounded-lg py-1 px-2" 
+              className="text-black rounded-lg py-1 px-2 mx-auto" 
               src="/nextbutton.png"
           alt="nextbutton Logo"
               onClick={nextPage}
