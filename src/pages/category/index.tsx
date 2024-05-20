@@ -7,27 +7,27 @@ const CategoryPage = () => {
         <h2 className="text-2xl font-bold text-center mt-[6rem] mb-[2rem]">Contents</h2>
         <div className="space-y-4">
           <Link href="/weather">
-            <div className="blcok rounded-lg" style={{ backgroundColor: '#E50914' }}>
+            <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-3 px-4 rounded-lg text-left mb-8">Weather Forcast</p>
             </div>
           </Link>
           <Link href="/airport">
-            <div className="blcok rounded-lg rounded-lg" style={{ backgroundColor: '#E50914' }}>
+            <div className="block rounded-lg rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-3 px-4 rounded-lg text-left mb-8">Airport Pickup</p>
             </div>
           </Link>
           <Link href="/hotel-information">
-            <div className="blcok rounded-lg" style={{ backgroundColor: '#E50914' }}>
+            <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-3 px-4 rounded-lg text-left mb-8">Hotel Information</p>
             </div>
           </Link>
           <Link href="/style-guide">
-            <div className="blcok rounded-lg" style={{ backgroundColor: '#E50914' }}>
+            <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-3 px-4 rounded-lg text-left mb-8">Style Guide</p>
             </div>
           </Link>
           <Link href="/exploring-seoul">
-            <div className="blcok rounded-lg" style={{ backgroundColor: '#E50914' }}>
+            <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-3 px-4 rounded-lg text-left mb-8">Exploring Seoul</p>
             </div>
           </Link>

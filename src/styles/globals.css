@@ -37,6 +37,9 @@ body {
   font-family: 'NetflixSans-Light', sans-serif;
 }
 
+.netflix-bold {
+  font-family: 'NetflixSans-Bold', sans-serif;
+}
 
 .full-page-background {
   background-image: url("/background.png");
