@@ -22,15 +22,15 @@ const AirportPickupPage = () => {
             <p className="text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '16px' }}>MEET UP POINT</p>
             <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Incheon Airport</div>
             <div className="netflix-light text-white font-light" style={{ fontSize: '12px' }}>Terminal 1, 1st floor | Gate 5</div>
-            <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>Terminal 2, 1st floor | Gate 5</div>
+            <div className="netflix-light text-white font-light mb-[1rem]" style={{ fontSize: '12px' }}>Terminal 2, 1st floor | Gate 5</div>
             <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Gimpo Airport</div>
-            <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>International terminal, 1st floor | Gate 1</div>
+            <div className="netflix-light text-white font-light mb-[1rem]" style={{ fontSize: '12px' }}>International terminal, 1st floor | Gate 1</div>
             <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">
                 <hr className='w-[30%]'></hr>
               </div>
             <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '25px' }}>WHO WILL BE WAITING?</p>
-            <div className="netflix-light text-white" style={{ fontSize: '12px' }}>Please find a staff member wearing</div>
-            <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>a gray suit and holding a Netflix sign below.</div>
+            <div className="netflix-light text-white font-light" style={{ fontSize: '12px' }}>Please find a staff member wearing</div>
+            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '12px' }}>a gray suit and holding a Netflix sign below.</div>
             <div className='flex'>
            
             </div>
@@ -39,22 +39,22 @@ const AirportPickupPage = () => {
         {currentPage === 2 && (
           <div>
             <p className="netflix-bold text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '16px' }}>NETFLIX VAN DEPARTURE TIME</p>
-            <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>Please check your assigned shuttle pickup<br/>time according to when you arrive.</div>
-            <div className="netflix-light text-white" style={{ fontSize: '12px' }}>If you have any delays, please contact<br/>us at the emergency number below.</div>
+            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '12px' }}>Please check your assigned shuttle pickup<br/>time according to when you arrive.</div>
+            <div className="netflix-light text-white font-light" style={{ fontSize: '12px' }}>If you have any delays, please contact<br/>us at the emergency number below.</div>
             <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">
                 <hr className='w-[30%]'></hr>
               </div>
             <p className="text-white mb-[1.5rem] font-black text-center" style={{ fontSize: '25px' }}>EMERGENCY CONTACT</p>
             <div className='flex w-full mx-auto justify-center align-items'>
               <div className="netflix-light font-extrabold text-white my-auto" style={{ fontSize: '16px' }}>Dongmin Kim</div>
-              <div className="netflix-light text-white my-auto" style={{ fontSize: '12px' }}> (+82 10-7777-9927)</div>
+              <div className="netflix-light text-white my-auto font-light" style={{ fontSize: '12px' }}> (+82 10-7777-9927)</div>
             </div>
-            <div className="netflix-light text-white my-auto mb-[1rem]" style={{ fontSize: '12px' }}>dongmin.kim@bitecomm.co.kr</div>
+            <div className="netflix-light text-white my-auto mb-[1rem] font-light" style={{ fontSize: '12px' }}>dongmin.kim@bitecomm.co.kr</div>
             <div className='flex w-full mx-auto justify-center align-items'>
               <div className="netflix-light font-extrabold text-white my-auto" style={{ fontSize: '16px' }}>Jungwoo Eun</div>
-              <div className="netflix-light text-white my-auto" style={{ fontSize: '12px' }}> (+82 10-7922-3829)</div>
+              <div className="netflix-light text-white my-auto font-light" style={{ fontSize: '12px' }}> (+82 10-7922-3829)</div>
             </div>
-            <div className="netflix-light text-white my-auto" style={{ fontSize: '12px' }}>jungwoo.eun@bitecomm.co.kr</div>
+            <div className="netflix-light text-white my-auto font-light" style={{ fontSize: '12px' }}>jungwoo.eun@bitecomm.co.kr</div>
           </div>
         )}
       </div>
