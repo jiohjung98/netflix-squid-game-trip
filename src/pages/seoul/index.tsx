@@ -17,8 +17,8 @@ const ExploringPage = () => {
       <div className="w-[95%] mt-[1.5rem] text-center"> 
         {currentPage === 1 && (
           <>
-            <p className="text-white mt-[1rem] mb-[2.5rem] font-black" style={{ fontSize: '25px' }}>PLACES TO VISIT<br/>IN SEOUL</p>
-            <div className="netflix-light font-extrabold text-white mb-[2rem]" style={{ fontSize: '20px' }}>RESTAURANT<br/>&<br/>BAR RECOMMENDATIONS</div>
+            <p className="text-white mt-[1rem] mb-[1.5rem] font-black" style={{ fontSize: '25px' }}>PLACES TO VISIT<br/>IN SEOUL</p>
+            <div className="netflix-light font-extrabold text-white mb-[1.5rem]" style={{ fontSize: '20px' }}>RESTAURANT<br/>&<br/>BAR RECOMMENDATIONS</div>
             <div className="netflix-light font-bold text-white my-auto" style={{ fontSize: '16px' }}>1. Buja Pizza</div>
             <div className="netflix-light text-white mb-[0.7rem]" style={{ fontSize: '13px' }}>A popular spot known<br/>for its delicious and unique pizzas.</div>
         
@@ -38,8 +38,8 @@ const ExploringPage = () => {
         )}
         {currentPage === 2 && (
             <>
-            <p className="text-white mt-[1rem] mb-[2.5rem] font-black" style={{ fontSize: '25px' }}>PLACES TO VISIT<br/>IN SEOUL</p>
-            <div className="netflix-light font-extrabold text-white mb-[2rem]" style={{ fontSize: '20px' }}>TOURIST SPOTS<br/>AROUND THE HOTEL</div>
+            <p className="text-white mt-[1rem] mb-[1.5rem] font-black" style={{ fontSize: '25px' }}>PLACES TO VISIT<br/>IN SEOUL</p>
+            <div className="netflix-light font-extrabold text-white mb-[1.5rem]" style={{ fontSize: '20px' }}>TOURIST SPOTS<br/>AROUND THE HOTEL</div>
             <div className="netflix-light font-bold text-white my-auto" style={{ fontSize: '16px' }}>1. Hyundai Vinyl & Plastic</div>
             <div className="netflix-light text-white mb-[0.7rem]" style={{ fontSize: '13px' }}>An experiential space where you can<br/>freely listen to and handle vinyl records.</div>
         
