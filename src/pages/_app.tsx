@@ -7,10 +7,10 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Netflix</title>
-        <meta name="description" content="Your App Description" />
+        <meta name="description" content="Netflix" />
         <link rel="icon" href="/netflix.png" />
-        <meta property="og:title" content="Your App Title" />
-        <meta property="og:description" content="Your App Description" />
+        <meta property="og:title" content="Netflix" />
+        <meta property="og:description" content="Netflix" />
         <meta property="og:image" content="/netflix.png" />
         <meta property="og:url" content="https://netfilx-project.netlify.app/" />
         <meta name="twitter:card" content="summary_large_image" />
