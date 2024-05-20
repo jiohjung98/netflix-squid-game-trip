@@ -31,8 +31,8 @@ const ExploringPage = () => {
             <div className="netflix-light font-bold text-white my-auto" style={{ fontSize: '16px' }}>4. Kieari</div>
             <div className="netflix-light text-white mb-[0.7rem]" style={{ fontSize: '13px' }}>Famous Dessert cafe making a healthy cake<br/>(no butter)</div>
 
-            <div className="netflix-light font-bold text-white my-auto" style={{ fontSize: '16px' }}>5. Bo Market</div>
-            <div className="netflix-light text-white mb-[0.7rem]" style={{ fontSize: '13px' }}>A trendy market-style venue offering a variety of<br/>food and drink options in a lively atmosphere.</div>
+            {/* <div className="netflix-light font-bold text-white my-auto" style={{ fontSize: '16px' }}>5. Bo Market</div>
+            <div className="netflix-light text-white mb-[0.7rem]" style={{ fontSize: '13px' }}>A trendy market-style venue offering a variety of<br/>food and drink options in a lively atmosphere.</div> */}
 
           </>
         )}
