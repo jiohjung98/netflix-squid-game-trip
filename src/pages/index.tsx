@@ -17,7 +17,7 @@ export default function Home() {
       />
       <div className="relative flex flex-col justify-between items-center h-screen z-10 my-auto">
         <div className="w-[95%] my-auto text-center z-10">
-        <div className="netflix-light text-white my-auto mb-[1rem] z-10" style={{ fontSize: '14px' }}>
+        <div className="netflix-light text-white my-auto mt-[0.5rem] mb-[1rem] z-10" style={{ fontSize: '14px' }}>
           Embark on an unforgettable
           </div>
           <p className="text-white mt-[1rem] mb-[1.5rem] font-black z-10" style={{ fontSize: '30px' }}>
@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute bottom-10 w-full flex justify-center items-center pb-[2.5rem] z-10">
+      <div className="absolute bottom-10 w-full flex justify-center items-center pb-[2.2rem] z-10">
       <Link href="/category">
         <Image
           className="text-black rounded-lg"
