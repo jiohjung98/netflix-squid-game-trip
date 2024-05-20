@@ -21,7 +21,7 @@ const HotelInformationPage = () => {
               </div>
               <p className="text-white mb-[1rem] font-extrabold z-10" style={{ fontSize: '20px' }}>HOTEL FACILITIES</p>
                 <div className="netflix-light text-white my-auto font-bold z-10" style={{ fontSize: '12px' }}>Gym</div>
-                <div className="netflix-light text-white my-auto mb-[0.5rem] z-10 font-light" style={{ fontSize: '11px' }}>Mondrian Hotel, 5F |06:00 AM - 10:00 PM</div>
+                <div className="netflix-light text-white my-auto mb-[0.5rem] z-10 font-light" style={{ fontSize: '11px' }}>Mondrian Hotel, 5F | 06:00 AM - 10:00 PM</div>
                 <div className="netflix-light text-white my-auto font-bold z-10" style={{ fontSize: '12px' }}>Swimming Pool</div>
                 <div className="netflix-light text-white my-auto mb-[0.5rem] z-10 font-light" style={{ fontSize: '11px' }}>Mondrian Hotel, B2F | 06:00 AM</div>
                 <div className="netflix-light text-white my-auto font-bold z-10" style={{ fontSize: '12px' }}>Breakfast</div>
