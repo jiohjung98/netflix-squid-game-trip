@@ -4,7 +4,7 @@ import Link from 'next/link';
 const WeatherForcastPage = () => {
   return (
     <div className="flex flex-col justify-between items-center h-screen">
-      <div className="w-[95%] my-auto mt-[3rem] text-center"> 
+      <div className="w-[95%] my-auto mt-[1.5rem] text-center"> 
       
         <p className="text-white mt-[1rem] mb-[1rem] font-extrabold" style={{ fontSize: '25px' }}>WEATHER FORECAST</p>
         <div className="netflix-light text-white mb-[1.5rem]" style={{ fontSize: '14px' }}>Avg. daytime weather: 24°C (75.2°F)</div>

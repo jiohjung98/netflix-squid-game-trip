@@ -14,14 +14,15 @@ const AirportPickupPage = () => {
 
   return (
     <div className="flex flex-col justify-between items-center h-screen">
-      <div className="w-[95%] mt-[3rem] text-center"> 
+      <div className="w-[95%] mt-[1.5rem] text-center"> 
     
         <p className="text-white mt-[1rem] mb-[1rem] font-black" style={{ fontSize: '25px' }}>AIRPORT PICKUP</p>
         {currentPage === 1 && (
           <>
             <p className="text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '16px' }}>MEET UP POINT</p>
             <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Incheon Airport</div>
-            <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>Terminal 1, 1st floor | Gate 5</div>
+            <div className="netflix-light text-white font-light" style={{ fontSize: '12px' }}>Terminal 1, 1st floor | Gate 5</div>
+            <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>Terminal 2, 1st floor | Gate 5</div>
             <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Gimpo Airport</div>
             <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>International terminal, 1st floor | Gate 1</div>
             <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">

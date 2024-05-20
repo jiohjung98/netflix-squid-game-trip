@@ -14,7 +14,7 @@ const ExploringPage = () => {
 
   return (
     <div className="flex flex-col justify-between items-center h-screen">
-      <div className="w-[95%] mt-[3rem] text-center"> 
+      <div className="w-[95%] mt-[1.5rem] text-center"> 
         {currentPage === 1 && (
           <>
             <p className="text-white mt-[1rem] mb-[2.5rem] font-black" style={{ fontSize: '25px' }}>PLACES TO VISIT<br/>IN SEOUL</p>

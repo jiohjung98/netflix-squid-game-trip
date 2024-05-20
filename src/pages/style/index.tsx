@@ -3,7 +3,7 @@ import Image from 'next/image';
 const StyleGuildPage = () => {
   return (
     <div className="flex flex-col justify-between items-center h-screen">
-      <div className="w-[95%] mt-[3rem] text-center"> 
+      <div className="w-[95%] mt-[1.5rem] text-center"> 
         <p className="text-white mt-[1rem] mb-[1.5rem] font-black" style={{ fontSize: '25px' }}>STYLE GUIDE</p>
               <div className="netflix-light font-extrabold text-white" style={{ fontSize: '20px' }}>DAY 1</div>
               <div className="netflix-light font-bold text-white my-auto mb-[1rem]" style={{ fontSize: '18px' }}>May 29</div>
