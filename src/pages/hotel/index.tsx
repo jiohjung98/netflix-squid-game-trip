@@ -2,17 +2,7 @@ import Image from 'next/image';
 
 const HotelInformationPage = () => {
   return (
-    <div className="relative h-screen w-screen">
-      <div className="absolute inset-0">
-        <Image
-          src="/background.png"
-          alt="Main Page Background"
-          layout="fill"
-          objectFit="cover"
-          className="z-0"
-        />
-      </div>
-    <div className="relative flex flex-col justify-between items-center h-screen">
+    <div className="flex flex-col justify-between items-center h-screen">
       <div className="w-[95%] mt-[1.5rem] text-center"> 
         <p className="text-white mt-[1rem] mb-[1.5rem] font-black z-10" style={{ fontSize: '25px' }}>HOTEL INFORMATION</p>
               <div className="netflix-light font-extrabold text-white my-auto z-10" style={{ fontSize: '16px' }}>Hotel</div>
@@ -47,7 +37,6 @@ const HotelInformationPage = () => {
           height={70}
         />
       </div>
-    </div>
     </div>
   );
 };
