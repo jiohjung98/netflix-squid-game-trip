@@ -14,14 +14,8 @@ const AirportPickupPage = () => {
 
   return (
     <div className="flex flex-col justify-between items-center h-screen">
-      <div className="w-[95%] my-auto mt-[1rem] text-center"> 
-        <Image
-          src="/NetflixLogo.png"
-          alt="NetflixLogo Logo"
-          className="mx-auto"
-          width={60}
-          height={120}
-        />
+      <div className="w-[95%] mt-[3rem] text-center"> 
+    
         <p className="text-white mt-[1rem] mb-[1rem] font-black" style={{ fontSize: '25px' }}>AIRPORT PICKUP</p>
         {currentPage === 1 && (
           <>
@@ -39,13 +33,9 @@ const AirportPickupPage = () => {
             <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '25px' }}>WHO WILL BE WAITING?</p>
             <div className="netflix-light text-white" style={{ fontSize: '12px' }}>Please find a staff member wearing</div>
             <div className="netflix-light text-white mb-[1rem]" style={{ fontSize: '12px' }}>a gray suit and holding a Netflix sign below.</div>
-            <Image
-              src="/NetflixDesktop.png"
-              alt="NetflixDesktop Logo"
-              className="mx-auto"
-              width={60}
-              height={120}
-            />
+            <div className='flex'>
+           
+            </div>
           </>
         )}
         {currentPage === 2 && (
@@ -85,6 +75,14 @@ const AirportPickupPage = () => {
             />
           )}
           {currentPage < 2 && (
+            <div className='flex flex-col'>
+             <Image
+             src="/NetflixDesktop.png"
+             alt="NetflixDesktop Logo"
+             className="mx-auto mb-[1rem]"
+             width={60}
+             height={120}
+           />
             <Image
               className="text-black rounded-lg py-1 px-2" 
               src="/nextbutton.png"
@@ -93,6 +91,7 @@ const AirportPickupPage = () => {
               width={50}
               height={50}
             />
+            </div>
           )}
         </div>
         <Image
