@@ -75,21 +75,24 @@ const AirportPickupPage = () => {
       </div>
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
         <div className="flex justify-center w-[30%] mx-auto gray-500">
-          {currentPage > 1 &&  <button 
+          {currentPage > 1 &&  (<Image
               className="text-black rounded-lg py-1 px-2" 
-              style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)' }} 
+              src="/previousbutton.png"
+          alt="previousbutton Logo"
               onClick={previousPage}
-            >
-              ◀ previous
-            </button>}
+              width={50}
+              height={50}
+            />
+          )}
           {currentPage < 2 && (
-            <button 
+            <Image
               className="text-black rounded-lg py-1 px-2" 
-              style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)' }} 
+              src="/nextbutton.png"
+          alt="nextbutton Logo"
               onClick={nextPage}
-            >
-              next ▶
-            </button>
+              width={50}
+              height={50}
+            />
           )}
         </div>
         <Image

@@ -16,17 +16,17 @@ const CategoryPage = () => {
               <p className="text-white font-bold py-3 px-4 rounded-lg text-left mb-8">Airport Pickup</p>
             </div>
           </Link>
-          <Link href="/hotel-information">
+          <Link href="/hotel">
             <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-3 px-4 rounded-lg text-left mb-8">Hotel Information</p>
             </div>
           </Link>
-          <Link href="/style-guide">
+          <Link href="/style">
             <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-3 px-4 rounded-lg text-left mb-8">Style Guide</p>
             </div>
           </Link>
-          <Link href="/exploring-seoul">
+          <Link href="/seoul">
             <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-3 px-4 rounded-lg text-left mb-8">Exploring Seoul</p>
             </div>
