@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.netflix-light {
+  font-family: 'NetflixSans-Light', sans-serif;
+}
+
+
+.full-page-background {
+  background-image: url("/background.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
