@@ -39,7 +39,7 @@ const NearByPage = () => {
         {currentPage === 2 && (
             <>
             <div className='w-full flex flex-col justify-center items-center flex-grow'>
-            <p className="text-white mb-[1rem] font-extrabold z-10" style={{ fontSize: '20px' }}>TOURIST SPOTS<br/>AROUND THE HOTEL</p>
+            <p className="text-white mb-[1rem] font-extrabold z-10" style={{ fontSize: '20px',lineHeight: '1.2' }}>TOURIST SPOTS<br/>AROUND THE HOTEL</p>
               <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>1. Hyundai Vinyl & Plastic</div>
               <div className="text-white font-light" style={{ fontSize: '14px' }}>An experiential space where you can<br/>freely listen to and handle vinyl records</div>
               <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>2. Tamburins Hannam flagship store</div>
