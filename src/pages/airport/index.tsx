@@ -39,7 +39,7 @@ const AirportPickupPage = () => {
         {currentPage === 2 && (
           <div>
             <p className="netflix-bold text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '16px' }}>NETFLIX VAN DEPARTURE TIME</p>
-            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>Please check your assigned shuttle pickup<br/>time according to when you arrive.</div>
+            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>Please check your assigned shuttle pickup<br/>time according to when you arrive</div>
             <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>If you experience any delays,<br/>please reach out to your Netflix handler</div>
             <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">
                 <hr className='w-[30%]'></hr>
