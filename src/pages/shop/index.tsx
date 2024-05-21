@@ -10,7 +10,7 @@ const ShoppingPage = () => {
         
         <div className='w-full flex flex-col justify-center items-center flex-grow'>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>1. Gangnam District</div>
-          <div className="text-white font-light" style={{ fontSize: '14px' }}>epitomizes modern Seoult<br/>with its high-rise buildings and luxury brands</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>epitomizes modern Seoul<br/>with its high-rise buildings and luxury brands</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>2. Myeongdong</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>the center for all things K-beauty and street food.<br/>Myeongdong Kyoja is also a well-loved restaurant<br/>famous for its Korean dumplings and noodle dishes</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>3. Hongdae</div>
