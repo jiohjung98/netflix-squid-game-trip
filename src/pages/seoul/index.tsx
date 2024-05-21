@@ -102,7 +102,7 @@ const ExploringPage = () => {
         <div className="flex justify-center w-[30%] mx-auto">
         {currentPage > 1 && (
             <Image
-              className="text-black rounded-lg py-1 px-2 mr-2"
+              className="text-black rounded-lg py-1 px-2"
               src="/previousbutton.png"
               alt="Previous Button"
               onClick={previousPage}

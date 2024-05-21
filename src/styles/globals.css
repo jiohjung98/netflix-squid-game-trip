@@ -16,6 +16,14 @@
   }
 }
 
+@font-face {
+  font-family: 'NetflixSans-Light';
+  src: url('/font/NetflixSans-Light.woff2') format('woff2'),
+       url('/font/NetflixSans-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -35,6 +43,10 @@ body {
 
 .netflix-light {
   font-family: 'NetflixSans-Light', sans-serif;
+}
+
+.netflix-medium {
+  font-family: 'NetflixSans-Medium', sans-serif;
 }
 
 .netflix-bold {
