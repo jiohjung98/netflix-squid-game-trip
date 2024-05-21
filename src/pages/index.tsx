@@ -15,6 +15,7 @@ export default function Home() {
           width={1920} 
           height={300} 
           quality={100}
+          priority
         />
       </div>
       <div className="top-minus-value flex flex-col justify-between items-center z-10 t-">
