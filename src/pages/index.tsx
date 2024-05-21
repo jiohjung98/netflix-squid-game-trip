@@ -68,6 +68,7 @@ export default function Home() {
             alt="Next Button"
             width={80}
             height={80}
+            priority
           />
         </Link>
       </div>

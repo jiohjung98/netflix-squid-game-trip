@@ -77,6 +77,7 @@ const AirportPickupPage = () => {
              className="mx-auto mb-[1rem]"
              width={100}
              height={200}
+             priority
            />
             <Image
               className="text-black rounded-lg py-1 px-2 mx-auto" 
@@ -95,6 +96,7 @@ const AirportPickupPage = () => {
           className="mx-auto"
           width={140}
           height={70}
+          priority
         />
       </div>
     </div>

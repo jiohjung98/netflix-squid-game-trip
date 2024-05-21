@@ -85,7 +85,8 @@ const ExploringPage = () => {
                               src="/location.png"
                               alt="Location Button"
                               width={100}
-                              height={100} />
+                              height={100}
+                              priority />
                       </a><div className="netflix-light text-white mb-[0.7rem] text-center" style={{ fontSize: '13px' }}>click here to open maps</div></>
       )}
         {currentPage === 3 && (
@@ -95,7 +96,8 @@ const ExploringPage = () => {
                               src="/location.png"
                               alt="Location Button"
                               width={100}
-                              height={100} />
+                              height={100}
+                              priority />
                       </a><div className="netflix-light text-white mb-[0.7rem] text-center" style={{ fontSize: '13px' }}>click here to open maps</div></>
         )}
     </div>
@@ -108,6 +110,7 @@ const ExploringPage = () => {
               onClick={previousPage}
               width={50}
               height={50}
+              priority
             />
           )}
           {currentPage < 3 && (
@@ -118,6 +121,7 @@ const ExploringPage = () => {
               onClick={nextPage}
               width={50}
               height={50}
+              priority
             />
           )}
         </div>
@@ -128,6 +132,7 @@ const ExploringPage = () => {
           className="mx-auto"
           width={140}
           height={70}
+          priority
         />
       </div>
     </div>

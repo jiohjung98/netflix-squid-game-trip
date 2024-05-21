@@ -35,6 +35,7 @@ and dinner for you to take a break and change if necessary</div>
           className="mx-auto"
           width={140}
           height={70}
+          priority
         />
       </div>
     </div>

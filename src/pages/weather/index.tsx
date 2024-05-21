@@ -25,6 +25,7 @@ const WeatherForcastPage = () => {
           className="mx-auto"
           width={140}
           height={70}
+          priority
         />
       </div>
     </div>
