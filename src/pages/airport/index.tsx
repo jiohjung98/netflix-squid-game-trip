@@ -18,13 +18,13 @@ const AirportPickupPage = () => {
        <div className='w-full flex flex-col justify-center text-center items-center flex-grow'>
         {currentPage === 1 && (
           <>
-            <p className="text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>MEET UP POINT</p>
+            <p className="text-white mt-[1rem] mb-[1rem] font-extrabold" style={{ fontSize: '20px' }}>MEET UP POINT</p>
             <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Incheon Airport</div>
             <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>Terminal 1, 1st floor | Gate 5</div>
             <Image
              src="/airport3.png"
              alt="airport3 Logo"
-             className="mx-auto my-[1rem]"
+             className="mx-auto mt-[0.3rem] mb-[1rem]"
              width={340}
              height={200}
              priority
@@ -33,12 +33,12 @@ const AirportPickupPage = () => {
             <Image
              src="/airport2.png"
              alt="airport2 Logo"
-             className="mx-auto my-[1rem]"
+             className="mx-auto mt-[0.3rem] mb-[1rem]"
              width={340}
              height={200}
              priority
            />
-            <div className="flex justify-center w-full mx-auto gray-500 my-[1.5rem]">
+            <div className="flex justify-center w-full mx-auto gray-500 my-[0.5rem]">
                 <hr className='w-[30%]'></hr>
               </div>
             <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Gimpo Airport</div>
@@ -46,7 +46,7 @@ const AirportPickupPage = () => {
             <Image
              src="/airport1.png"
              alt="airport1 Logo"
-             className="mx-auto my-[1rem]"
+             className="mx-auto mt-[0.3rem] mb-[1rem]"
              width={340}
              height={200}
              priority
@@ -62,7 +62,7 @@ const AirportPickupPage = () => {
         )}
         {currentPage === 2 && (
           <div>
-                                 <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>WHO WILL BE WAITING?</p>
+            <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>WHO WILL BE WAITING?</p>
             <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>Please find a staff member wearing</div>
             <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>a gray suit and holding a Netflix sign below</div>
             <Image
