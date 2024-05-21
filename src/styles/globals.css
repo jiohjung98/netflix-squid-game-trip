@@ -47,3 +47,8 @@ body {
   background-position: center;
   height: 100%;
 }
+
+.top-minus-value {
+  position: relative;
+  top: -15px; 
+}

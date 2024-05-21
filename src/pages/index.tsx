@@ -7,17 +7,17 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className="flex flex-col justify-between items-center h-screen">
-    <div className="w-[95%] my-auto mt-[1.5rem] text-center"> 
+    <div className="w-full my-auto text-center"> 
         <Image
           src="/mainPhotos.png"
           alt="mainPhotos"
           layout="responsive"
           width={1920} 
-          height={900} 
+          height={300} 
           quality={100}
         />
       </div>
-      <div className="flex flex-col justify-between items-center z-10">
+      <div className="top-minus-value flex flex-col justify-between items-center z-10 t-">
         <div className="my-auto text-center z-10">
           <div
             className="netflix-light text-white my-auto mb-[1rem] font-extrabold z-10"
