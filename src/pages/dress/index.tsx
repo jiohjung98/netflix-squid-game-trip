@@ -29,7 +29,7 @@ const DressCodePage = () => {
       <Image
           src="/dresscode.png"
           alt="dresscode Logo"
-          className="mx-auto mb-[0.3rem]"
+          className="mx-auto mt-[0.3rem]"
           width={360}
           height={70}
           priority
