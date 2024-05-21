@@ -22,14 +22,15 @@ const SightSeeingPage = () => {
       
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
       <a href="https://maps.app.goo.gl/pdsDko7ZEo2vT9Np6" target="_blank" rel="noopener noreferrer">
-                           <Image
-                               className="text-black rounded-lg mx-auto mb-[0.5rem]"
-                               src="/location.png"
-                               alt="Location Button"
-                               width={100}
-                               height={100}
-                               priority />
-                       </a><div className="netflix-light text-white mb-[0.7rem] text-center" style={{ fontSize: '13px' }}>click here to open maps</div>
+        <Image
+        className="text-black rounded-lg mx-auto mb-[0.5rem]"
+        src="/location.png"
+        alt="Location Button"
+        width={100}
+        height={100}
+        priority />
+    </a>
+    <div className="netflix-light text-white mb-[0.7rem] text-center" style={{ fontSize: '13px' }}>click here to open maps</div>
         <Image
           src="/NetflixLogo2.png"
           alt="NetflixLogo2 Logo"

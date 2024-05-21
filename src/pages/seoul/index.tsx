@@ -154,7 +154,7 @@ const ExploringPage = () => {
               <p className="text-white font-bold py-4 px-4 rounded-lg text-left mb-8">Sightseeing</p>
             </div>
           </Link>
-          <Link href="/airport">
+          <Link href="/shop">
             <div className="block rounded-lg rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-4 px-4 rounded-lg text-left mb-8">Shopping</p>
             </div>
