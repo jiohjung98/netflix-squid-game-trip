@@ -17,11 +17,13 @@ const NearByPage = () => {
     <div className="flex flex-col justify-between items-center h-screen">
       <div className="w-[95%] my-auto mt-[1.5rem] text-center flex flex-col justify-center items-center h-full"> 
       
-        <p className="text-white my-[1rem] font-extrabold" style={{ fontSize: '25px' }}>THINGS TO DO<br/>NEAR HOTEL</p>
+        <p className="text-white my-[1rem] font-extrabold" style={{ fontSize: '25px',lineHeight: '1.2' }}>THINGS TO DO<br/>NEAR HOTEL</p>
         {currentPage === 1 && (
           <>
         <div className='w-full flex flex-col justify-center items-center flex-grow'>
-        <p className="text-white mb-[1rem] font-extrabold z-10" style={{ fontSize: '20px' }}>RESTAURANT<br/>&<br/>BAR RECOMMENDATIONS</p>
+        <p className="text-white mb-[1rem] font-extrabold z-10" style={{ fontSize: '20px', lineHeight: '1.2' }}>
+  RESTAURANT<br/>&<br/>BAR RECOMMENDATIONS
+</p>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>1. Buja Pizza</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>A popular spot known<br/>for its delicious and unique pizzas.</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>2. Champ Coffee</div>
