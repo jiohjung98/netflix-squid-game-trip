@@ -44,8 +44,8 @@ const AirportPickupPage = () => {
             <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Gimpo Airport</div>
             <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>International terminal, 1st floor | Gate 1</div>
             <Image
-             src="/airport1.png"
-             alt="airport1 Logo"
+             src="/airport4.png"
+             alt="airport4 Logo"
              className="mx-auto mt-[0.3rem] mb-[1rem]"
              width={340}
              height={200}
