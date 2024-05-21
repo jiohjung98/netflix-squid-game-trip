@@ -23,15 +23,15 @@ const NearByPage = () => {
         <div className='w-full flex flex-col justify-center items-center flex-grow'>
         <p className="text-white mb-[1rem] font-extrabold z-10" style={{ fontSize: '20px' }}>RESTAURANT<br/>&<br/>BAR RECOMMENDATIONS</p>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>1. Buja Pizza</div>
-          <div className="text-white font-light" style={{ fontSize: '16px' }}>A popular spot known<br/>for its delicious and unique pizzas.</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>A popular spot known<br/>for its delicious and unique pizzas.</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>2. Champ Coffee</div>
-          <div className="text-white font-light" style={{ fontSize: '16px' }}>A cozy cafe famous for its<br/>high-quality coffee and inviting atmosphere</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>A cozy cafe famous for its<br/>high-quality coffee and inviting atmosphere</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>3. Myeongdong Kyoja</div>
-          <div className="text-white font-light" style={{ fontSize: '16px' }}>A well-loved restaurant famous for<br/>its Korean dumplings and noodle dishes. (Michelin)</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>A well-loved restaurant famous for<br/>its Korean dumplings and noodle dishes. (Michelin)</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>4. Kieari</div>
-          <div className="text-white font-light" style={{ fontSize: '16px' }}>Famous Dessert cafe making a healthy cake<br/>(no butter)</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>Famous Dessert cafe making a healthy cake<br/>(no butter)</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>Bo Market</div>
-          <div className="text-white font-light" style={{ fontSize: '16px' }}>A trendy market-style venue offering a variety<br/>of food and drink options in a lively atmosphere</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>A trendy market-style venue offering a variety<br/>of food and drink options in a lively atmosphere</div>
         </div>
         </>)}
         {currentPage === 2 && (
@@ -39,13 +39,13 @@ const NearByPage = () => {
             <div className='w-full flex flex-col justify-center items-center flex-grow'>
             <p className="text-white mb-[1rem] font-extrabold z-10" style={{ fontSize: '20px' }}>TOURIST SPOTS<br/>AROUND THE HOTEL</p>
               <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>1. Hyundai Vinyl & Plastic</div>
-              <div className="text-white font-light" style={{ fontSize: '16px' }}>An experiential space where you can<br/>freely listen to and handle vinyl records</div>
+              <div className="text-white font-light" style={{ fontSize: '14px' }}>An experiential space where you can<br/>freely listen to and handle vinyl records</div>
               <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>2. Tamburins Hannam flagship store</div>
-              <div className="text-white font-light" style={{ fontSize: '16px' }}>The flagship store of TAMBURINS,<br/>a contemporary beauty and lifestyle brand</div>
+              <div className="text-white font-light" style={{ fontSize: '14px' }}>The flagship store of TAMBURINS,<br/>a contemporary beauty and lifestyle brand</div>
               <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>3. Leeum Museum of Art</div>
-              <div className="text-white font-light" style={{ fontSize: '16px' }}>A renowned museum showcasing a mix<br/>of traditional Korean art and contemporary works</div>
+              <div className="text-white font-light" style={{ fontSize: '14px' }}>A renowned museum showcasing a mix<br/>of traditional Korean art and contemporary works</div>
               <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>4. National Museum of Korea</div>
-              <div className="text-white font-light" style={{ fontSize: '16px' }}>The premier cultural institution showcasing<br/>the rich history and dirverse heritage</div>
+              <div className="text-white font-light" style={{ fontSize: '14px' }}>The premier cultural institution showcasing<br/>the rich history and dirverse heritage</div>
             </div>
             </>
         )}

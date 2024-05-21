@@ -10,13 +10,13 @@ const SightSeeingPage = () => {
         
         <div className='w-full flex flex-col justify-center items-center flex-grow'>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>1. Gyeongbokgung Palace</div>
-          <div className="text-white font-light" style={{ fontSize: '16px' }}>the largest of the 5 Grand Palaces built<br/>during the Joseon dynasty</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>the largest of the 5 Grand Palaces built<br/>during the Joseon dynasty</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>2. Changdeokgung Palace</div>
-          <div className="text-white font-light" style={{ fontSize: '16px' }}>known for its garden,<br/>and a UNESCO World Heritage site</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>known for its garden,<br/>and a UNESCO World Heritage site</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>3. Bukchon Hanok Village</div>
-          <div className="text-white font-light" style={{ fontSize: '16px' }}>features traditional Korean houses,<br/>and has cates and shops</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>features traditional Korean houses,<br/>and has cates and shops</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>4. Cheonggyecheon Stream</div>
-          <div className="text-white font-light" style={{ fontSize: '16px' }}>10.9km long stream that cuts through Seoul</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>10.9km long stream that cuts through Seoul</div>
         </div>
       </div>
       

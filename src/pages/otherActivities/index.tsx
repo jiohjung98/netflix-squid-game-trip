@@ -10,7 +10,7 @@ const OtherActivitiesPage = () => {
         
         <div className='w-full flex flex-col justify-center items-center flex-grow'>
           <div className="text-white my-[1rem] font-bold" style={{ fontSize: '18px' }}>Personal color analysis</div>
-          <div className="text-white font-light" style={{ fontSize: '16px' }}>A hot trend in Korea,<br/>this personalized consultation determines<br/>your complementary color palette<br/>based on your skin tone, hair color and eye color.<br/>It you're looking for English speakers,<br/>try out Cocory</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>A hot trend in Korea,<br/>this personalized consultation determines<br/>your complementary color palette<br/>based on your skin tone, hair color and eye color.<br/>It you're looking for English speakers,<br/>try out Cocory</div>
     
         </div>
       </div>
