@@ -33,7 +33,7 @@ const NearByPage = () => {
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>4. Kieari</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>Famous Dessert cafe making a healthy cake<br/>(no butter)</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>Bo Market</div>
-          <div className="text-white font-light" style={{ fontSize: '14px' }}>A trendy market-style venue offering a variety<br/>of food and drink options in a lively atmosphere</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>A trendy market-style venue offering a variety of<br/>food and drink options in a lively atmosphere</div>
         </div>
         </>)}
         {currentPage === 2 && (
