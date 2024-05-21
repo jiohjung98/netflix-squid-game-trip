@@ -14,9 +14,8 @@ const AirportPickupPage = () => {
 
   return (
     <div className="flex flex-col justify-between items-center h-screen">
-      <div className="w-[95%] mt-[1.5rem] text-center"> 
-    
-        <p className="text-white mt-[1rem] mb-[1rem] font-black" style={{ fontSize: '25px' }}>AIRPORT PICKUP</p>
+      <p className="text-white mt-[2.5rem] mb-[1rem] font-black" style={{ fontSize: '25px' }}>AIRPORT PICKUP</p>
+       <div className='w-full flex flex-col justify-center text-center items-center flex-grow'>
         {currentPage === 1 && (
           <>
             <p className="text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '16px' }}>MEET UP POINT</p>
@@ -57,6 +56,7 @@ const AirportPickupPage = () => {
             <div className="netflix-light text-white my-auto font-light" style={{ fontSize: '13px' }}>jungwoo.eun@bitecomm.co.kr</div>
           </div>
         )}
+
       </div>
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
         <div className="flex justify-center w-[30%] mx-auto gray-500">
