@@ -67,6 +67,7 @@ const AirportPickupPage = () => {
               onClick={previousPage}
               width={50}
               height={50}
+              priority
             />
           )}
           {currentPage < 2 && (
@@ -86,6 +87,7 @@ const AirportPickupPage = () => {
               onClick={nextPage}
               width={50}
               height={50}
+              priority
             />
             </div>
           )}
