@@ -17,7 +17,7 @@ export default function Home() {
       />
       <div className="relative flex flex-col justify-between items-center h-screen z-10 my-auto">
         <div className="w-[95%] my-auto text-center z-10">
-        <div className="netflix-light text-white my-auto mt-[0.5rem] mb-[1rem] z-10" style={{ fontSize: '14px' }}>
+        <div className="netflix-light text-white my-auto mt-[0.5rem] mb-[1rem] font-extrabold z-10" style={{ fontSize: '14px' }}>
           Embark on an unforgettable
           </div>
           <p className="text-white mt-[1rem] mb-[1.5rem] font-black z-10" style={{ fontSize: '30px' }}>

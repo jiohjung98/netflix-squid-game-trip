@@ -8,7 +8,7 @@ const WeatherForcastPage = () => {
       
         <p className="text-white mt-[1rem] mb-[1rem] font-extrabold" style={{ fontSize: '25px' }}>WEATHER FORECAST</p>
         <div className="netflix-light text-white mb-[1.5rem]" style={{ fontSize: '14px' }}>Avg. daytime weather: 24°C (75.2°F)</div>
-        <div className="netflix-light text-white mb-[1.5rem]" style={{ fontSize: '14px' }}>Avg. nighttime weather: 15°C (59°F)</div>
+        <div className="netflix-light text-white mb-[1.5rem]" style={{ fontSize: '14px' }}>Avg. night time weather: 15°C (59°F)</div>
         <div className="netflix-light text-white mb-[1.5rem]" style={{ fontSize: '14px' }}>Avg. daily temperature range: 9°C (48.2°F)</div>
         <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">
                 <hr className='w-[30%]'></hr>

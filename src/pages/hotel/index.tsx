@@ -23,7 +23,7 @@ const HotelInformationPage = () => {
                 <div className="netflix-light text-white my-auto font-bold z-10" style={{ fontSize: '12px' }}>Gym</div>
                 <div className="netflix-light text-white my-auto mb-[0.5rem] z-10 font-light" style={{ fontSize: '11px' }}>Mondrian Hotel, 5F | 06:00 AM - 10:00 PM</div>
                 <div className="netflix-light text-white my-auto font-bold z-10" style={{ fontSize: '12px' }}>Swimming Pool</div>
-                <div className="netflix-light text-white my-auto mb-[0.5rem] z-10 font-light" style={{ fontSize: '11px' }}>Mondrian Hotel, B2F | 06:00 AM</div>
+                <div className="netflix-light text-white my-auto mb-[0.5rem] z-10 font-light" style={{ fontSize: '11px' }}>Mondrian Hotel, B2F | 06:00 AM - 10:00 PM</div>
                 <div className="netflix-light text-white my-auto font-bold z-10" style={{ fontSize: '12px' }}>Breakfast</div>
                 <div className="netflix-light text-white my-auto mb-[0.5rem] z-10 font-light" style={{ fontSize: '11px' }}>Mondrian Hotel, 1F CLEO restaurant | 06:30 - 10:00 AM</div>
 
