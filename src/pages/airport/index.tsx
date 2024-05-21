@@ -21,29 +21,67 @@ const AirportPickupPage = () => {
             <p className="text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>MEET UP POINT</p>
             <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Incheon Airport</div>
             <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>Terminal 1, 1st floor | Gate 5</div>
-            <div className="netflix-light text-white font-light mb-[1rem]" style={{ fontSize: '13px' }}>Terminal 2, 1st floor | Gate 5</div>
-            <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Gimpo Airport</div>
-            <div className="netflix-light text-white font-light mb-[1rem]" style={{ fontSize: '13px' }}>International terminal, 1st floor | Gate 1</div>
-            <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">
+            <Image
+             src="/airport3.png"
+             alt="airport3 Logo"
+             className="mx-auto my-[1rem]"
+             width={340}
+             height={200}
+             priority
+           />
+            <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>Terminal 2, 1st floor | Gate 5</div>
+            <Image
+             src="/airport2.png"
+             alt="airport2 Logo"
+             className="mx-auto my-[1rem]"
+             width={340}
+             height={200}
+             priority
+           />
+            <div className="flex justify-center w-full mx-auto gray-500 my-[1.5rem]">
                 <hr className='w-[30%]'></hr>
               </div>
-            <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>WHO WILL BE WAITING?</p>
+            <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Gimpo Airport</div>
+            <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>International terminal, 1st floor | Gate 1</div>
+            <Image
+             src="/airport1.png"
+             alt="airport1 Logo"
+             className="mx-auto my-[1rem]"
+             width={340}
+             height={200}
+             priority
+           />
+                      
+                      {/* <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>WHO WILL BE WAITING?</p>
             <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>Please find a staff member wearing</div>
             <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>a gray suit and holding a Netflix sign below</div>
             <div className='flex'>
            
-            </div>
+            </div> */}
           </>
         )}
         {currentPage === 2 && (
           <div>
-            <p className="netflix-bold text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>NETFLIX VAN DEPARTURE TIME</p>
-            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>Please check your assigned shuttle pickup<br/>time according to when you arrive</div>
-            <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>If you experience any delays,<br/>please reach out to your Netflix handler</div>
+                                 <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>WHO WILL BE WAITING?</p>
+            <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>Please find a staff member wearing</div>
+            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>a gray suit and holding a Netflix sign below</div>
+            <Image
+             src="/NetflixDesktop.png"
+             alt="NetflixDesktop Logo"
+             className="mx-auto mb-[1rem]"
+             width={100}
+             height={200}
+             priority
+           />
             <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">
                 <hr className='w-[30%]'></hr>
               </div>
-            <p className="text-white mb-[1.5rem] font-black text-center" style={{ fontSize: '20px' }}>EMERGENCY CONTACT</p>
+            <p className="netflix-bold text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>NETFLIX VAN DEPARTURE TIME</p>
+            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>Please check your assigned shuttle pickup<br/>time according to when you arrive</div>
+            <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>If you experience any delays,<br/>please reach out to your Netflix handler</div>
+            
+          
+            {/* <p className="text-white mb-[1.5rem] font-black text-center" style={{ fontSize: '20px' }}>EMERGENCY CONTACT</p>
             <div className='flex w-full mx-auto justify-center align-items'>
               <div className="netflix-light font-extrabold text-white my-auto" style={{ fontSize: '16px' }}>Dongmin Kim</div>
               <div className="netflix-light text-white my-auto font-light" style={{ fontSize: '13px' }}> (+82 10-7777-9927)</div>
@@ -53,7 +91,7 @@ const AirportPickupPage = () => {
               <div className="netflix-light font-extrabold text-white my-auto" style={{ fontSize: '16px' }}>Jungwoo Eun</div>
               <div className="netflix-light text-white my-auto font-light" style={{ fontSize: '13px' }}> (+82 10-7922-3829)</div>
             </div>
-            <div className="netflix-light text-white my-auto font-light" style={{ fontSize: '13px' }}>jungwoo.eun@bitecomm.co.kr</div>
+            <div className="netflix-light text-white my-auto font-light" style={{ fontSize: '13px' }}>jungwoo.eun@bitecomm.co.kr</div> */}
           </div>
         )}
 
@@ -72,14 +110,7 @@ const AirportPickupPage = () => {
           )}
           {currentPage < 2 && (
             <div className='flex flex-col'>
-             <Image
-             src="/NetflixDesktop.png"
-             alt="NetflixDesktop Logo"
-             className="mx-auto mb-[1rem]"
-             width={100}
-             height={200}
-             priority
-           />
+            
             <Image
               className="text-black rounded-lg py-1 px-2 mx-auto" 
               src="/nextbutton.png"
