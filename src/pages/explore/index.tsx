@@ -164,7 +164,7 @@ const ExploringPage = () => {
               <p className="text-white font-bold py-4 px-4 rounded-lg text-left mb-8">Iconic K-drama Filming Locations</p>
             </div>
           </Link>
-          <Link href="/style">
+          <Link href="/nearby">
             <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-4 px-4 rounded-lg text-left mb-8">Things To Do Near Hotel</p>
             </div>
