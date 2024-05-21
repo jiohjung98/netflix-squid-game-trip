@@ -13,20 +13,20 @@ export default function Home() {
           alt="mainPhotos"
           layout="responsive"
           width={1920} 
-          height={1080} 
+          height={500} 
           quality={100}
         />
       </div>
       <div className="flex flex-col justify-between items-center z-10">
         <div className="w-[95%] my-auto text-center z-10">
           <div
-            className="netflix-light text-white my-auto mt-[0.5rem] mb-[1rem] font-extrabold z-10"
+            className="netflix-light text-white my-auto mb-[1rem] font-extrabold z-10"
             style={{ fontSize: "14px" }}
           >
             Embark on an unforgettable
           </div>
           <p
-            className="text-white mt-[1rem] mb-[1.5rem] font-black z-10"
+            className="text-white mt-[1rem] mb-[1rem] font-black z-10"
             style={{ fontSize: "30px" }}
           >
             K-content
