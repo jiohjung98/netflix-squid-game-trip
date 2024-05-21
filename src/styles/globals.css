@@ -85,3 +85,7 @@ body {
   position: relative;
   top: -20px; 
 }
+
+.font-light-italic {
+  font-style: italic;
+}
