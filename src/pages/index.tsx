@@ -65,8 +65,8 @@ export default function Home() {
             className="text-black rounded-lg"
             src="/nextbutton.png"
             alt="Next Button"
-            width={100}
-            height={100}
+            width={80}
+            height={80}
           />
         </Link>
       </div>
