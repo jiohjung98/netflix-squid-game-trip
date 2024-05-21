@@ -21,7 +21,7 @@ const SightSeeingPage = () => {
       </div>
       
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
-      <a href="https://maps.app.goo.gl/pdsDko7ZEo2vT9Np6" target="_blank" rel="noopener noreferrer">
+      <a href="https://maps.app.goo.gl/v2XjbTuThdfRHsKV7" target="_blank" rel="noopener noreferrer">
         <Image
         className="text-black rounded-lg mx-auto mb-[0.5rem]"
         src="/location.png"
