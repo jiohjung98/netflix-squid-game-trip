@@ -26,7 +26,7 @@ const CategoryPage = () => {
               <p className="text-white font-bold py-4 px-4 rounded-lg text-left mb-8">Style Guide</p>
             </div>
           </Link>
-          <Link href="/seoul">
+          <Link href="/explore">
             <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-4 px-4 rounded-lg text-left mb-8">Exploring Seoul</p>
             </div>
