@@ -21,7 +21,7 @@ export default function Home() {
       <div className="top-minus-value flex flex-col justify-between items-center z-10 t-">
         <div className="my-auto text-center z-10">
           <div
-            className="netflix-light text-white my-auto mb-[1rem] font-extrabold z-10"
+            className="netflix-light text-white my-auto mb-[1rem] font-light z-10"
             style={{ fontSize: "14px" }}
           >
             Embark on an unforgettable
@@ -30,9 +30,7 @@ export default function Home() {
             className="text-white mt-[1rem] mb-[1rem] font-black z-10"
             style={{ fontSize: "30px" }}
           >
-            K-content
-            <br />
-            Adventure
+            NETFLIX JOURNEY
           </p>
           <div
             className="netflix-light text-white my-auto mb-[1rem] z-10"
@@ -40,36 +38,25 @@ export default function Home() {
           >
             Join us for an exclusive journey through Korea,
             <br />
-            where you can dive deep into your favorite
-            <br />
-            K-content like never before. We have an exciting
-            <br />
-            lineup of activities that will leave you craving for
-            <br />
-            more. Pack your bags and get ready for an
-            <br />
-            incredible experience in Korea!
+            featuring an exciting lineup of activities<br />
+            that will leave you craving more.<br />
+            Pack your bags and prepare for an incredible experience!
             <br />
             <br />
-            A Netflix host will warmly welcome you upon
-            <br />
-            arrival, with hotel transfers already arranged
-            <br />
-            for your convenience.
+            Upon arrival, you'll be warmly welcomed by a Netflix host, <br />
+            and we've arranged hotel transfers for your convenience.
           </div>
         </div>
       </div>
 
       <div className="bottom-10 w-full flex justify-center items-center pb-[2.2rem] z-10">
         <Link href="/category">
-          <Image
-            className="text-black rounded-lg"
-            src="/nextbutton.png"
-            alt="Next Button"
-            width={80}
-            height={80}
-            priority
-          />
+        <div
+            className="text-white mt-[1rem] mb-[1rem] font-black z-10"
+            style={{ fontSize: "25px" }}
+          >
+            ENTER
+          </div>
         </Link>
       </div>
     </div>
