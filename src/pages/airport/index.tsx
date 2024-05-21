@@ -18,7 +18,7 @@ const AirportPickupPage = () => {
        <div className='w-full flex flex-col justify-center text-center items-center flex-grow'>
         {currentPage === 1 && (
           <>
-            <p className="text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '16px' }}>MEET UP POINT</p>
+            <p className="text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>MEET UP POINT</p>
             <div className="netflix-light text-white font-bold" style={{ fontSize: '14px' }}>Incheon Airport</div>
             <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>Terminal 1, 1st floor | Gate 5</div>
             <div className="netflix-light text-white font-light mb-[1rem]" style={{ fontSize: '13px' }}>Terminal 2, 1st floor | Gate 5</div>
@@ -27,9 +27,9 @@ const AirportPickupPage = () => {
             <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">
                 <hr className='w-[30%]'></hr>
               </div>
-            <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '25px' }}>WHO WILL BE WAITING?</p>
+            <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>WHO WILL BE WAITING?</p>
             <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>Please find a staff member wearing</div>
-            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>a gray suit and holding a Netflix sign below.</div>
+            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>a gray suit and holding a Netflix sign below</div>
             <div className='flex'>
            
             </div>
@@ -37,13 +37,13 @@ const AirportPickupPage = () => {
         )}
         {currentPage === 2 && (
           <div>
-            <p className="netflix-bold text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '16px' }}>NETFLIX VAN DEPARTURE TIME</p>
+            <p className="netflix-bold text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>NETFLIX VAN DEPARTURE TIME</p>
             <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>Please check your assigned shuttle pickup<br/>time according to when you arrive</div>
             <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>If you experience any delays,<br/>please reach out to your Netflix handler</div>
             <div className="flex justify-center w-full mx-auto gray-500 my-[3rem]">
                 <hr className='w-[30%]'></hr>
               </div>
-            <p className="text-white mb-[1.5rem] font-black text-center" style={{ fontSize: '16px' }}>EMERGENCY CONTACT</p>
+            <p className="text-white mb-[1.5rem] font-black text-center" style={{ fontSize: '20px' }}>EMERGENCY CONTACT</p>
             <div className='flex w-full mx-auto justify-center align-items'>
               <div className="netflix-light font-extrabold text-white my-auto" style={{ fontSize: '16px' }}>Dongmin Kim</div>
               <div className="netflix-light text-white my-auto font-light" style={{ fontSize: '13px' }}> (+82 10-7777-9927)</div>
