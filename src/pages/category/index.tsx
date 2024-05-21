@@ -3,8 +3,8 @@ import Link from 'next/link';
 const CategoryPage = () => {
   return (
     <div className="flex items-center justify-center h-screen">
-      <div className="bg-gray-100 p-6 rounded-lg shadow-lg w-[95%] h-[90%] my-auto border-red-700"> 
-          <h2 className="text-4xl font-bold text-black text-center my-[4rem]">Contents</h2>
+      <div className="p-6 rounded-lg shadow-lg w-[95%] h-[90%] my-auto"> 
+          <h2 className="text-4xl font-bold text-white text-center my-[4rem]">Contents</h2>
         <div className="space-y-4">
           <Link href="/weather">
             <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
