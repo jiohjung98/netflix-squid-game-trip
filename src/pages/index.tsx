@@ -6,14 +6,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen">
-      <div className="w-full">
+    <div className="flex flex-col justify-between items-center h-screen">
+    <div className="w-[95%] my-auto mt-[1.5rem] text-center"> 
         <Image
           src="/mainPhotos.png"
           alt="mainPhotos"
           layout="responsive"
           width={1920} 
-          height={500} 
+          height={900} 
           quality={100}
         />
       </div>
