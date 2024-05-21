@@ -18,7 +18,7 @@ export default function Home() {
         />
       </div>
       <div className="flex flex-col justify-between items-center z-10">
-        <div className="w-[95%] my-auto text-center z-10">
+        <div className="my-auto text-center z-10">
           <div
             className="netflix-light text-white my-auto mb-[1rem] font-extrabold z-10"
             style={{ fontSize: "14px" }}
@@ -35,7 +35,7 @@ export default function Home() {
           </p>
           <div
             className="netflix-light text-white my-auto mb-[1rem] z-10"
-            style={{ fontSize: "14px" }}
+            style={{ fontSize: "12px" }}
           >
             Join us for an exclusive journey through Korea,
             <br />

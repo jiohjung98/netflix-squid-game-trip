@@ -45,5 +45,5 @@ body {
   background-image: url("/background.png");
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  height: 100%;
 }
