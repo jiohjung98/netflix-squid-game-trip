@@ -30,7 +30,7 @@ const DressCodePage = () => {
           src="/dresscode.png"
           alt="dresscode Logo"
           className="mx-auto mt-[0.3rem]"
-          width={360}
+          width={320}
           height={70}
           priority
         />
