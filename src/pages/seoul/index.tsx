@@ -65,13 +65,13 @@ const ExploringPage = () => {
            <div className="netflix-light text-white mb-[0.7rem] font-light" style={{ fontSize: '13px' }}>Experiential space for K-POP Entertainment</div>
 
            <div className="netflix-light font-bold text-white my-auto" style={{ fontSize: '16px' }}>3. Satur The T-Shirt Shop Pop-Up</div>
-           <div className="netflix-light text-white mb-[0.7rem] font-light" style={{ fontSize: '13px' }}>A pop-up for Saturr's graphic<br/>tees with a vintage LP vibe</div>
+           <div className="netflix-light text-white mb-[0.7rem] font-light" style={{ fontSize: '13px' }}>A pop-up for Satur graphic<br/>tees with a vintage LP vibe</div>
 
            <div className="netflix-light font-bold text-white my-auto" style={{ fontSize: '16px' }}>4. Jayeondo Salted Bakery</div>
            <div className="netflix-light text-white mb-[0.7rem] font-light" style={{ fontSize: '13px' }}>The hottest bakery with salted bread</div>
 
            <div className="netflix-light font-bold text-white my-auto" style={{ fontSize: '16px' }}>5. Nudecake Seongsu</div>
-           <div className="netflix-light text-white mb-[0.7rem] font-light" style={{ fontSize: '13px' }}>A museum concept dessert<br/>café that even</div>
+           <div className="netflix-light text-white mb-[0.7rem] font-light" style={{ fontSize: '13px' }}>A museum concept dessert<br/>café that even impresses</div>
           
          </>
         )}
