@@ -16,6 +16,7 @@
   }
 }
 
+/* globals.css */
 @font-face {
   font-family: 'NetflixSans-Light';
   src: url('/font/NetflixSans-Light.woff2') format('woff2'),
@@ -24,14 +25,33 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'NetflixSans-Medium';
+  src: url('/font/NetflixSans-Medium.woff2') format('woff2'),
+       url('/font/NetflixSans-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NetflixSans-Bold';
+  src: url('/font/NetflixSans-Bold.woff2') format('woff2'),
+       url('/font/NetflixSans-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: 'NetflixSans-Light', sans-serif;
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    
 }
 
 @layer utilities {
