@@ -10,11 +10,11 @@ const KdramaPage = () => {
         
         <div className='w-full flex flex-col justify-center items-center flex-grow'>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>1. Hyundai Mall</div>
-          <div className="text-white font-light" style={{ fontSize: '14px' }}>if you're a Queen of Tears fan,<br/>this will be all too familiar</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>If you're a Queen of Tears fan,<br/>this will be all too familiar</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>2. Namsan Tower (N Seoul Tower)</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>Popular date spot in K-dramas<br/>and was featured in Boys Over Flower,<br/>The Legend of the Blue Sea, Itaewon Class etc</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>3. Yonsei University</div>
-          <div className="text-white font-light" style={{ fontSize: '14px' }}>one of the top universities and filming location<br/>for dramas such as Reply 1994,<br/>My Sassy Girl, Abyss etc</div>
+          <div className="text-white font-light" style={{ fontSize: '14px' }}>One of the top universities and filming location<br/>for dramas such as Reply 1994,<br/>My Sassy Girl, Abyss etc</div>
         </div>
       </div>
       

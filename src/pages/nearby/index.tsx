@@ -55,7 +55,7 @@ const NearByPage = () => {
       
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
       {currentPage > 1 &&  (
-        <><a href="https://maps.app.goo.gl/pdsDko7ZEo2vT9Np6" target="_blank" rel="noopener noreferrer">
+        <><a href="https://maps.app.goo.gl/Crscso1JC7vkhEqY6" target="_blank" rel="noopener noreferrer">
                       <Image
                           className="text-black rounded-lg mx-auto mb-[0.5rem]"
                           src="/location.png"
