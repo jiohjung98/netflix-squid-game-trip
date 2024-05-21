@@ -50,7 +50,7 @@ const ExploringPage = () => {
             <div className="netflix-light text-white mb-[0.7rem] font-light" style={{ fontSize: '13px' }}>A renowned museum showcasing a mix<br/>of traditional Korean art and contemporary works.</div>
 
             <div className="netflix-light font-bold text-white my-auto" style={{ fontSize: '16px' }}>4. NATIONAL MUSEUM OF KOREA</div>
-            <div className="netflix-light text-white mb-[0.7rem] font-light" style={{ fontSize: '13px' }}>The premier cultural institution showcasing<br/>the rich history and dirverse heritage.</div>
+            <div className="netflix-light text-white mb-[0.7rem] font-light" style={{ fontSize: '13px' }}>The premier cultural institution showcasing<br/>the rich history and diverese heritage.</div>
             <div className='flex flex-col w-full mt-auto'>
           </div>
           </>
