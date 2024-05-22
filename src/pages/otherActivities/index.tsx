@@ -16,7 +16,16 @@ const OtherActivitiesPage = () => {
       </div>
       
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
-    
+      <a href="https://maps.app.goo.gl/9qdQa9RKScT2EqMfA" target="_blank" rel="noopener noreferrer">
+        <Image
+        className="text-black rounded-lg mx-auto mb-[0.5rem]"
+        src="/location.png"
+        alt="Location Button"
+        width={100}
+        height={100}
+        priority />
+        <div className="netflix-light text-white mb-[0.7rem] text-center" style={{ fontSize: '13px' }}>click here to open maps</div>
+    </a>
         <Image
           src="/NetflixLogo2.png"
           alt="NetflixLogo2 Logo"

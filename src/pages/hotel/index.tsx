@@ -14,8 +14,8 @@ const HotelInformationPage = () => {
               </div>
               <p className="text-white mb-[1rem] font-extrabold z-10" style={{ fontSize: '20px' }}>CHECK-IN PROCESS</p>
               <div className="netflix-light font-bold text-white my-auto mb-[1rem] z-10" style={{ fontSize: '16px' }}>Registration desk is located<br/>on the 2nd floor of the hotel.<br/>Please provide your name at the desk.</div>
-              <div className="netflix-light font-bold text-white my-auto z-10" style={{ fontSize: '16px' }}>Registration desk opens in May 29th, 9:00AM</div>
-              <div className="netflix-light text-white my-auto z-10 font-light" style={{ fontSize: '14px' }}>For early check-ins, please provide<br/>your name on the 2nd floor registration desk</div>
+              {/* <div className="netflix-light font-bold text-white my-auto z-10" style={{ fontSize: '16px' }}>Registration desk opens in May 29th, 9:00AM.</div>
+              <div className="netflix-light text-white my-auto z-10 font-light" style={{ fontSize: '14px' }}>For early check-ins, please provide<br/>your name on the 2nd floor registration desk.</div> */}
               <div className="flex justify-center w-full mx-auto gray-500 my-[1.5rem] z-10">
                 <hr className='w-[30%]'></hr>
               </div>
