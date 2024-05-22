@@ -4,10 +4,8 @@ import Link from 'next/link';
 const SightSeeingPage = () => {
   return (
     <div className="flex flex-col justify-between items-center h-screen">
-      <div className="w-[95%] my-auto mt-[1.5rem] text-center flex flex-col justify-center items-center h-full"> 
-      
-        <p className="text-white my-[1rem] font-extrabold" style={{ fontSize: '25px' }}>SIGHTSEEING</p>
-        
+      <div className="w-[95%] my-auto mt-[1.5rem] text-center flex flex-col justify-center items-center h-full">      
+        <p className="text-white my-[1rem] font-extrabold" style={{ fontSize: '25px' }}>SIGHTSEEING</p>       
         <div className='w-full flex flex-col justify-center items-center flex-grow'>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>1. Gyeongbokgung Palace</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>the largest of the 5 Grand Palaces built<br/>during the Joseon dynasty</div>
@@ -18,8 +16,7 @@ const SightSeeingPage = () => {
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>4. Cheonggyecheon Stream</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>10.9km long stream that cuts through Seoul</div>
         </div>
-      </div>
-      
+      </div>      
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
       <a href="https://maps.app.goo.gl/v2XjbTuThdfRHsKV7" target="_blank" rel="noopener noreferrer">
         <Image

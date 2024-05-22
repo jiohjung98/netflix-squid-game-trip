@@ -4,10 +4,8 @@ import Link from 'next/link';
 const ShoppingPage = () => {
   return (
     <div className="flex flex-col justify-between items-center h-screen">
-      <div className="w-[95%] my-auto mt-[1.5rem] text-center flex flex-col justify-center items-center h-full"> 
-      
-        <p className="text-white my-[1rem] font-extrabold" style={{ fontSize: '25px' }}>SHOPPING</p>
-        
+      <div className="w-[95%] my-auto mt-[1.5rem] text-center flex flex-col justify-center items-center h-full">      
+        <p className="text-white my-[1rem] font-extrabold" style={{ fontSize: '25px' }}>SHOPPING</p>        
         <div className='w-full flex flex-col justify-center items-center flex-grow'>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>1. Gangnam District</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>epitomizes modern Seoul<br/>with its high-rise buildings and luxury brands</div>
@@ -20,8 +18,7 @@ const ShoppingPage = () => {
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px',lineHeight: '1.2'  }}>5. Gwangjang Market,<br/>Namdaemun Market</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>If you're looking to try traditional Korean street food,<br/>this is where you'll want to check out</div>
         </div>
-      </div>
-      
+      </div>      
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
       <a href="https://maps.app.goo.gl/8PDUo394xKEktHfZ7" target="_blank" rel="noopener noreferrer">
         <Image

@@ -22,8 +22,8 @@ const NearByPage = () => {
           <>
         <div className='w-full flex flex-col justify-center items-center flex-grow'>
         <p className="text-white mb-[1rem] font-extrabold z-10" style={{ fontSize: '20px', lineHeight: '1.2' }}>
-  RESTAURANT<br/>&<br/>BAR RECOMMENDATIONS
-</p>
+        RESTAURANT<br/>&<br/>BAR RECOMMENDATIONS
+        </p>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>1. Buja Pizza</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>A popular spot known<br/>for its delicious and unique pizzas</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>2. Champ Coffee</div>
@@ -51,8 +51,7 @@ const NearByPage = () => {
             </div>
             </>
         )}
-      </div>
-      
+      </div>    
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
       {currentPage > 1 &&  (
         <><a href="https://maps.app.goo.gl/Crscso1JC7vkhEqY6" target="_blank" rel="noopener noreferrer">
