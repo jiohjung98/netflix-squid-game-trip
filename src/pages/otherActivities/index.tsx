@@ -25,7 +25,7 @@ const OtherActivitiesPage = () => {
         <Image
           src="/NetflixLogo2.png"
           alt="NetflixLogo2 Logo"
-          className="mx-auto"
+          className="mx-auto pt-[1rem]"
           width={140}
           height={70}
           priority
