@@ -11,7 +11,8 @@ export default function Home() {
         <Image
           src="/mainLogo.png"
           alt="mainLogo"
-          layout="responsive"
+          layout="fixed"
+          className="mx-auto"
           width={200}
           height={200}
           quality={100}
