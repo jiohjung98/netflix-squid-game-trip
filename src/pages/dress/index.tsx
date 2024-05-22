@@ -23,7 +23,7 @@ const DressCodePage = () => {
               <div className="netflix-light font-bold text-white my-auto mb-[0.5rem]" style={{ fontSize: '14px' }}>May 31</div>
               <div className="netflix-light font-bold text-white my-auto mb-[0.7rem]" style={{ fontSize: '16px' }}>Set Visit & Dinner</div>
               <div className="netflix-light text-white my-auto font-light" style={{ fontSize: '14px' }}>Channel your inner VIP from Squid Game<br/>Wear comfortable shoes, no heels,<br/>as you will be walking around the set</div>
-              <div className="font-light-italic netflix-light text-white my-auto font-light" style={{ fontSize: '14px' }}>VIP facial masks will be give out at the set in Daejeon</div>
+              <div className="font-light-italic netflix-light text-white my-auto font-light" style={{ fontSize: '14px' }}>VIP facial masks will be given out at the set in Daejeon</div>
              
       </div>
       <div className="w-full flex flex-col justify-center items-center pb-[1.5rem]">
