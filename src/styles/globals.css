@@ -81,6 +81,12 @@ body {
   height: 100vh;
 }
 
+@media screen and (max-height: 740px) {
+  .full-page-background {
+    height: 120vh;
+  }
+}
+
 .top-minus-value {
   position: relative;
   top: -20px; 
