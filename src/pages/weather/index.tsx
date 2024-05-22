@@ -9,7 +9,7 @@ const WeatherForcastPage = () => {
         <p className="text-white mt-[1rem] mb-[1rem] font-extrabold" style={{ fontSize: '25px' }}>WEATHER FORECAST</p>
         
         <div className='w-full flex flex-col justify-center items-center flex-grow'>
-        <div className="text-white mt-[1rem] mb-[1rem] font-medium" style={{ fontSize: '16px' }}>Currently, the weather is generally<br/>clear and warm. In Seoul, the temperature<br/>is around 24°C (75°F) with a clear<br/>sky and light winds from the west.<br/>The humidity is moderate at about 59%</div>
+        <div className="text-white mt-[1rem] mb-[1rem] font-medium" style={{ fontSize: '16px' }}>Currently, the weather is generally<br/>clear and warm. In Seoul, the temperature<br/>is around 24°C (75°F) with a clear<br/>sky and light winds from the west.<br/>The humidity is moderate at about 59%.</div>
         <div className="text-white mt-[1rem] mt-[2rem] mb-[1rem] font-medium" style={{ fontSize: '22px' }}>
           May 29 Wednesday<br/>
           <span style={{ color: 'blue' }}>16°C (61°F)</span> 
