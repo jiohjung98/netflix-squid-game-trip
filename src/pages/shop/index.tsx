@@ -17,7 +17,7 @@ const ShoppingPage = () => {
           <div className="text-white font-light" style={{ fontSize: '14px' }}>located near Hongik University,<br/>this area is known for its music scene and bars</div>
           <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px' }}>4. Hannam-dong</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>known for boutique shopping, cafes and restaurants</div>
-          <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px',lineHeight: '1.2'  }}>5. Gwangjang Market,<br/>Namdaemun Market, Bo Market</div>
+          <div className="text-white mt-[1rem] font-bold" style={{ fontSize: '18px',lineHeight: '1.2'  }}>5. Gwangjang Market,<br/>Namdaemun Market</div>
           <div className="text-white font-light" style={{ fontSize: '14px' }}>If you're looking to try traditional Korean street food,<br/>this is where you'll want to check out</div>
         </div>
       </div>
