@@ -21,11 +21,11 @@ const CategoryPage = () => {
               <p className="text-white font-bold py-4 px-4 rounded-lg text-left mb-8">Hotel Information</p>
             </div>
           </Link>
-          <Link href="/dress">
+          {/* <Link href="/dress">
             <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-4 px-4 rounded-lg text-left mb-8">Dress Code</p>
             </div>
-          </Link>
+          </Link> */}
           <Link href="/explore">
             <div className="block rounded-lg" style={{ backgroundColor: '#E50914' }}>
               <p className="text-white font-bold py-4 px-4 rounded-lg text-left mb-8">Exploring Seoul</p>
