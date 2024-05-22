@@ -21,8 +21,8 @@ export default function Home() {
       <div className="w-full flex flex-col justify-center items-center flex-grow">
         <div className="my-auto text-center z-10 flex flex-col justify-center items-center h-full">
           <div
-            className="netflix-light text-white font-light z-10 mb-[4rem]"
-            style={{ fontSize: "14px" }}
+            className="netflix-light text-white font-light z-10"
+            style={{ fontSize: "16px" }}
           >
             Embark on an unforgettable
           </div>
@@ -34,7 +34,7 @@ export default function Home() {
           </p>
           <div
             className="netflix-light text-white mt-[3rem] mb-[1rem] z-10"
-            style={{ fontSize: "12px" }}
+            style={{ fontSize: "14px" }}
           >
             Join us for an exclusive journey through Korea,
             <br />
