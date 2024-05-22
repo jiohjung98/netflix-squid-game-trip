@@ -64,7 +64,7 @@ const AirportPickupPage = () => {
           <div>
             <p className="text-white mt-[2rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>WHO WILL BE WAITING?</p>
             <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>Please find a staff member wearing</div>
-            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>a gray suit and holding a Netflix sign below</div>
+            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>a gray suit and holding a Netflix sign below.</div>
             <Image
              src="/NetflixDesktop.png"
              alt="NetflixDesktop Logo"
@@ -77,8 +77,8 @@ const AirportPickupPage = () => {
                 <hr className='w-[30%]'></hr>
               </div>
             <p className="netflix-bold text-white mt-[1rem] mb-[1.5rem] font-extrabold" style={{ fontSize: '20px' }}>NETFLIX VAN DEPARTURE TIME</p>
-            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>Please check your assigned shuttle pickup<br/>time according to when you arrive</div>
-            <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>If you experience any delays,<br/>please reach out to your Netflix handler</div>
+            <div className="netflix-light text-white mb-[1rem] font-light" style={{ fontSize: '13px' }}>Please check your assigned shuttle pickup<br/>time according to when you arrive.</div>
+            <div className="netflix-light text-white font-light" style={{ fontSize: '13px' }}>If you experience any delays,<br/>please reach out to your Netflix handler.</div>
             
           
             {/* <p className="text-white mb-[1.5rem] font-black text-center" style={{ fontSize: '20px' }}>EMERGENCY CONTACT</p>
