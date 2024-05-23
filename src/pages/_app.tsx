@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import * as gtag from '@/libs/gtag';
 
+
 const GA_TRACKING_ID = 'G-58LZ0H6Y0L';
 
 export default function App({ Component, pageProps }: AppProps) {
